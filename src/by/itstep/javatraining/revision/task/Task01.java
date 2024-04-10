@@ -26,8 +26,10 @@ package by.itstep.javatraining.revision.task;
 
 public class Task01 {
     public static int start(int a, int b) {
-        int sum = a + b;
+        /*int sum = a + b;
         int diff = a - b > 0 ? a - b : b - a;
-        return (sum + diff) / 2;
+        return (sum + diff) / 2;*/
+
+        return a > b ? a : b;
     }
 }
